@@ -1,0 +1,36 @@
+schema: gwz.marker/v0
+gwz_commit_id: 01a06bf8-f375-73a8-a2c0-64ed6072915c
+workspace_id: ws_default
+created_at: unix-ms:1788517872650
+created_by:
+  actor_id: unknown
+root:
+  path: .
+  branch: main
+selected_targets:
+- '@root'
+- mem_garns
+- mem_garns_rust
+committed_targets:
+- mem_garns
+- mem_garns_rust
+- '@root'
+members:
+  mem_garns:
+    path: garns
+    source_id: src_garns
+    source_kind: git
+    commit: 34f2f146a28a90d9ef4bfe9ef86dcc5f788275c6
+    branch: main
+    detached: false
+    dirty: false
+    materialized: true
+  mem_garns_rust:
+    path: garns-rust
+    source_id: src_garns_rust
+    source_kind: git
+    commit: 7e8e31913a5da7defa18064d9d904a8fde0ae2fb
+    branch: main
+    detached: false
+    dirty: false
+    materialized: true

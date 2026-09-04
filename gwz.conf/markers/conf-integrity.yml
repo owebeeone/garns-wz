@@ -1,0 +1,6 @@
+# Machine-managed by gwz: SHA-256 of the conf files as gwz last wrote them.
+# Commit this together with gwz.yml and gwz.lock.yml — git must move all three.
+schema: gwz.conf-integrity/v0
+files:
+  gwz.conf/gwz.lock.yml: sha256:e8c2a41eb51c5cb7278541ec781437cf485c23c03f41f8edb676c3402f47075d
+  gwz.conf/gwz.yml: sha256:a7d6e4257af035d4ea0671a8cf637244c3e38523fea676b154196aa99fc4c96a

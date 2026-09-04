@@ -1,0 +1,23 @@
+# Machine-managed by gwz. Hand edits to gwz.conf/ are detected and refused.
+# Structural changes: `gwz repo <add|clone|create|detach|attach|sync>`.
+# Already edited? Revert it, or `gwz init --update --force` to accept this state.
+schema: gwz.workspace/v0
+workspace:
+  id: ws_default
+members:
+- id: mem_garns
+  path: garns
+  type: git
+  source_id: src_garns
+  active: true
+  desired:
+    local_only: true
+  remotes: []
+- id: mem_garns_rust
+  path: garns-rust
+  type: git
+  source_id: src_garns_rust
+  active: true
+  desired:
+    local_only: true
+  remotes: []
