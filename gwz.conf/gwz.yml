@@ -11,13 +11,21 @@ members:
   source_id: src_garns
   active: true
   desired:
-    local_only: true
-  remotes: []
+    branch: main
+  remotes:
+  - name: origin
+    url: git@github.com:owebeeone/garns.git
+    fetch: true
+    push: true
 - id: mem_garns_rust
   path: garns-rust
   type: git
   source_id: src_garns_rust
   active: true
   desired:
-    local_only: true
-  remotes: []
+    branch: main
+  remotes:
+  - name: origin
+    url: git@github.com:owebeeone/garns-rust.git
+    fetch: true
+    push: true
