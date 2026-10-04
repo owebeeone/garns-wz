@@ -302,8 +302,12 @@ The git steps were approved next ("go 1-5"); their results follow.
 | 3 · root commit | This commit: the plan, the source inventory, Rev 1 marked superseded, README and ARCHITECTURE describing the v9-6 layout, and gwz's lock update pinning `garns` at `461b879`. |
 | 4/5 · root push and root tag | Follow this commit. |
 
-**Push route.** SSH on this machine authenticates as gripd, which has read-only
-access to these repositories, so `gwz push` and `gwz tag --push` could not be used.
-Every push went through git to the same `origin` remotes, with a one-shot
+**Push route — corrected.** These pushes, and the next one (`garns` `37b8dc8`,
+root `2100ef5`), went through plain git rather than gwz. The session's default SSH
+agent authenticates as gripd, which has read-only access to these repositories, so
+they were pushed to the same `origin` remotes with a one-shot
 `-c url.https://github.com/.pushInsteadOf=git@github.com:`, authenticating as
 owebeeone through the `gh` credential helper. No remote or config was changed.
+That was a mistake: `gwz push` was never tried, and it works through the operator's
+own agent under `~/.ssh/agent/`, whose RSA key authenticates as owebeeone. Every push
+after this correction uses gwz through that agent.
