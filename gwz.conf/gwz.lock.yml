@@ -6,7 +6,7 @@ members:
     path: garns
     source_id: src_garns
     source_kind: git
-    commit: ac0c713818ef2fea50ce72836db1420f6fe19578
+    commit: 6b8712cbf0c3cd65bc98c4c7d9d285b6fe661161
     branch: main
     detached: false
     dirty: false
