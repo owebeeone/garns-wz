@@ -11,6 +11,15 @@ members:
     detached: false
     dirty: false
     materialized: true
+  mem_garns_dw:
+    path: garns-dw
+    source_id: src_garns_dw
+    source_kind: git
+    commit: a48eb1edf1c9c094af15444ae157e1585c299632
+    branch: main
+    detached: false
+    dirty: false
+    materialized: true
   mem_garns_rust:
     path: garns-rust
     source_id: src_garns_rust

@@ -29,3 +29,11 @@ members:
     url: git@github.com:owebeeone/garns-rust.git
     fetch: true
     push: true
+- id: mem_garns_dw
+  path: garns-dw
+  type: git
+  source_id: src_garns_dw
+  active: true
+  desired:
+    local_only: true
+  remotes: []
