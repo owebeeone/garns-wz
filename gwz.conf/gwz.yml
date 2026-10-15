@@ -37,3 +37,11 @@ members:
   desired:
     local_only: true
   remotes: []
+- id: mem_giddy
+  path: giddy
+  type: git
+  source_id: src_giddy
+  active: true
+  desired:
+    local_only: true
+  remotes: []

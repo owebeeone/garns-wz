@@ -15,16 +15,25 @@ members:
     path: garns-dw
     source_id: src_garns_dw
     source_kind: git
-    commit: 91c3de9ecb830d47fa5b76d7ebe5357c2a1689a2
+    commit: a79af6e42b160fd9806fe825e8396a3cb2c160d2
     branch: main
     detached: false
-    dirty: false
+    dirty: true
     materialized: true
   mem_garns_rust:
     path: garns-rust
     source_id: src_garns_rust
     source_kind: git
     commit: 7e8e31913a5da7defa18064d9d904a8fde0ae2fb
+    branch: main
+    detached: false
+    dirty: false
+    materialized: true
+  mem_giddy:
+    path: giddy
+    source_id: src_giddy
+    source_kind: git
+    commit: 16e6f4f98ab1fe27f4a86b65bf752e53a07a79f5
     branch: main
     detached: false
     dirty: false
