@@ -15,7 +15,7 @@ members:
     path: garns-dw
     source_id: src_garns_dw
     source_kind: git
-    commit: 74d6a87bcd95b495ef0e074383e30145c996b208
+    commit: 67e32fffa9df78e1f02658887e2460a34953bdbf
     branch: main
     detached: false
     dirty: false
