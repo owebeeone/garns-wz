@@ -1,0 +1,54 @@
+schema: gwz.marker/v0
+gwz_commit_id: 01a1449c-e761-7987-8b04-a693c3c3178c
+workspace_id: ws_default
+origin_url_hash: sha256:e548fd2176e36b36102637c64541b25900384a2bdd3426388ec2b63430602b82
+created_at: unix-ms:1792152496163
+created_by:
+  actor_id: unknown
+root:
+  path: .
+  before_commit: e48c31d367bc3cf0724420164c6d17a63229e08b
+  branch: main
+selected_targets:
+- '@root'
+- mem_garns_dw
+committed_targets:
+- mem_garns_dw
+- '@root'
+members:
+  mem_garns:
+    path: garns
+    source_id: src_garns
+    source_kind: git
+    commit: 825793326085474cd25a00f158048d1dd1c6bbe5
+    branch: main
+    detached: false
+    dirty: false
+    materialized: true
+  mem_garns_dw:
+    path: garns-dw
+    source_id: src_garns_dw
+    source_kind: git
+    commit: cd6ec5cf9da69d3067df44eb8328c4cdfdf5586d
+    branch: main
+    detached: false
+    dirty: false
+    materialized: true
+  mem_garns_rust:
+    path: garns-rust
+    source_id: src_garns_rust
+    source_kind: git
+    commit: 7e8e31913a5da7defa18064d9d904a8fde0ae2fb
+    branch: main
+    detached: false
+    dirty: false
+    materialized: true
+  mem_giddy:
+    path: giddy
+    source_id: src_giddy
+    source_kind: git
+    commit: 16e6f4f98ab1fe27f4a86b65bf752e53a07a79f5
+    branch: main
+    detached: false
+    dirty: false
+    materialized: true
