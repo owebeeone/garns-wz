@@ -6,7 +6,7 @@ members:
     path: garns
     source_id: src_garns
     source_kind: git
-    commit: 825793326085474cd25a00f158048d1dd1c6bbe5
+    commit: 592fdb841df5402ee5746219bb2158201dfdbe59
     branch: main
     detached: false
     dirty: false
@@ -15,10 +15,10 @@ members:
     path: garns-dw
     source_id: src_garns_dw
     source_kind: git
-    commit: f018dc901ac7d9c57321cd068809e54589b44c4f
+    commit: 3d313c3fa1889bdf59c5e7f12b6d01bfb6411bad
     branch: main
     detached: false
-    dirty: true
+    dirty: false
     materialized: true
   mem_garns_rust:
     path: garns-rust
