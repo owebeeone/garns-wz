@@ -15,10 +15,10 @@ members:
     path: garns-dw
     source_id: src_garns_dw
     source_kind: git
-    commit: 3544defac9e015f775120d4f360460419d16360e
+    commit: 53c0515453cfc56a40daf7c8cafcf3542c90a21d
     branch: main
     detached: false
-    dirty: true
+    dirty: false
     materialized: true
   mem_garns_rust:
     path: garns-rust
